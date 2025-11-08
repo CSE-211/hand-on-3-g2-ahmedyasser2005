@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="nav-and-footer">
+        <div id="nav-text">
+            <h1>Ahmed Yasser</h1>
+            <h2>Hi there, this is my gallery website!</h2>
+            <p>Here you can find some of my personal photos, videos, and audios.</p>
+        </div>
+        <div id="nav-items">
+            <ul>
+                <li><a class="link-in-list" href="index.html">Home</a></li>
+                <li><a class="link-in-list" href="#photos">Photos</a></li>
+                <li><a class="link-in-list" href="#videos">Videos</a></li>
+                <li><a class="link-in-list" href="#audios">Audios</a></li>
+                <li><a class="link-in-list" href="https://www.linkedin.com/in/ahmed-ysr-eissa/" target="_blank">LinkedIn</a></li>
+                <li><a class="link-in-list" href="#footer">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="photos">
+        <img src="resources/imgs/GU Presdential Film Day.webp" alt="GU Presdential Film Day Photo">
+        <img src="resources/imgs/GU at DevFest24.webp" alt="GU at DevFest24 Photo">
+        <img src="resources/imgs/Egyptian Mau Statue.webp" alt="Egyptian Mau Statue Photo">
+        <img src="resources/imgs/Dahab's Dog.webp" alt="Dahab's Dog Photo">
+        <img src="resources/imgs/Dahab Cowboy Hat.webp" alt="Dahab Cowboy Hat Photo">
+        <img src="resources/imgs/Cap.webp" alt="Cap Photo">
+        <img src="resources/imgs/ORCE24.webp" alt="ORCE24 Photo">
+        <img src="resources/imgs/SkyCity.webp" alt="SkyCity Photo">
+        <img src="resources/imgs/Tennis.webp" alt="Tennis Photo">
+        <img src="resources/imgs/Al-Alamien.webp" alt="Al-Alamien Photo">
+        <img src="resources/imgs/two glasses.webp" alt="Two Glasses Photo">
+    </section>
+    <section id="videos">
+        <figure>
+            <video controls disablepictureinpicture height="512">
+                <source src="resources/vids/Introduction.mp4" type="video/mp4" />
+                <track label="English CC" default kind="subtitles" srclang="en" src="resources/subtitles/English-Subtitle.vtt">
+                <track label="Arabic CC" kind="subtitles" srclang="ar" src="resources/subtitles/Arabic-Subtitle.vtt">
+                <p>Your browser doesn't support HTML video.</p>
+            </video>
+            <figcaption>
+                Simple introduction video about myself (including English/Arabic subtitles.)
+            </figcaption>
+        </figure>
+    </section>
+    <section id="audios">
+        <figure>
+            <audio controls>
+                <source src="resources/audio/some_audio.m4a" type="audio/mp4" />
+                <p>Your browser doesn't support HTML audio.</p>
+            </audio>
+            <figcaption>
+                Some random introduction audio
+            </figcaption>
+        </figure>
+    </section>
+    <footer id="footer" class="nav-and-footer">
+        <p>GU Email: aya400617@gu.edu.eg</p>
+        <p>GU ID: 223104924</p>
+        <p>Program: Computer Science</p>
+        <p>Track: Computer Vision</p>
+    </footer>
+</body>
+
+</html>
